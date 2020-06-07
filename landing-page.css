@@ -1,0 +1,142 @@
+html {
+	margin-left: 0px;
+	margin-top: 0px;
+	font-size: 10px;
+}
+
+body {
+	margin: 0;
+	background-color: lightgray;
+}
+
+
+/* Generating the header */
+.navigation {
+	display: flex;
+    background-color: black;
+	justify-content: space-around;
+}
+
+.navigation li {
+	color: white;
+    list-style: none;
+	font-size: large;
+    padding: 10px;
+}
+
+
+/* Generating the main content */
+
+h1 {
+	text-align: center;
+    margin: 20px;
+    font-size: 3rem;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+}
+
+.flexbox {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+/* Generating the book cover */
+
+
+
+.book-cover {
+	display: flex;
+	flex-direction: column;
+    width: 325px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+	align-items: flex-end;
+	position: relative;
+}
+		
+.author-lastname {
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+	position: absolute;
+	padding: 5px;
+    left: 14px;
+	font-size: 13px;
+}
+
+.life-lesson {
+	font-size: larger;
+	text-align: end;
+	margin-left: 60px;
+    margin-top: 25px;
+	margin-right: 20px;
+}
+
+.author-name,
+.author-profession {
+	text-transform: uppercase;
+    font-weight: 700;
+}
+
+.brand-name {
+	text-transform: uppercase;
+	font-size: x-large;
+	margin-right: 20px;
+	margin-top: 0;
+}
+
+.tagline {
+	font-size: xx-large;
+	text-align: end;
+    word-spacing: 10rem;
+    margin-top: 0;
+	margin-bottom:	0;
+	background-color: white;
+    padding-right: 20px;
+	text-transform: uppercase;
+}
+
+.design {
+	background-color: #ffdb07a8;
+	align-self: normal;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.initials {
+	font-size: 12rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.quotation {
+	text-align: center;
+    font-size: 2rem;
+    line-height: 3;
+    margin-top: 50px;
+}
+
+
+/* Generating the Footer*/
+
+footer {
+    background-color: black;
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+	line-height: 2;
+}
+
+footer > p {
+	font-size: 1.5rem;
+}
+
+.name {
+	writing-mode: vertical-rl;
+	
+}
+
+button {
+	background-color: #ffa50096;
+}
